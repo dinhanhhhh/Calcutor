@@ -36,6 +36,7 @@ namespace Calculator
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtKetQua = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -99,6 +100,16 @@ namespace Calculator
             this.txtKetQua.Size = new System.Drawing.Size(227, 23);
             this.txtKetQua.TabIndex = 2;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(286, 234);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Tru";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnCong_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -107,6 +118,7 @@ namespace Calculator
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtB);
             this.Controls.Add(this.txtA);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCong);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -128,6 +140,7 @@ namespace Calculator
         private System.Windows.Forms.TextBox txtA;
         private System.Windows.Forms.TextBox txtB;
         private System.Windows.Forms.TextBox txtKetQua;
+        private System.Windows.Forms.Button button1;
     }
 }
 
